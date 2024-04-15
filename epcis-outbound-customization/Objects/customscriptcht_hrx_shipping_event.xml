@@ -1,0 +1,22 @@
+<restlet scriptid="customscriptcht_hrx_shipping_event">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>CHT HRX File Creation</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/cht_hrx_shipping_restlet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploycht_hrx_shipping_event">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>CHT HRX SHIPPING EVENT</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>
